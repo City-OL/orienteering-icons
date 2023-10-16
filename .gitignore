@@ -2,3 +2,4 @@ node_modules/
 lib/
 custom-elements.json
 .DS_STORE
+icons.jsonl
