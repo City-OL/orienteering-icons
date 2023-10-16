@@ -1,6 +1,6 @@
 # Orienteering Icons
 
-Web component to create icons relevant for orienteering in an SVG format.
+Web component to create icons relevant for orienteering in an SVG format. Check out [this demo](https://city-ol.github.io/orienteering-icons/demo.html) and its [source code](demo.html) for the supported icon names.
 
 ## Usage
 
@@ -17,7 +17,7 @@ npm i @city-ol/orienteering-icons
 ></script>
 ```
 
-Check out the demo for a list of all supported icons. To create an icon, add an `<orienteering-icon>` element and specify its name.
+To create an icon, add an `<orienteering-icon>` element and specify its name.
 
 ```html
 <orienteering-icon name="broad_leaved"></orienteering-icon>
