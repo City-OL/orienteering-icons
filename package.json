@@ -1,6 +1,6 @@
 {
   "name": "@city-ol/orienteering-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate icons relevant for orienteering in an SVG format.",
   "main": "lib/orienteering-icon.js",
   "module": "lib/orienteering-icon.js",
