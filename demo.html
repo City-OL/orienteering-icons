@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Orienteering Icon Demo</title>
+    <script
+      type="module"
+      src="https://unpkg.com/@city-ol/orienteering-icons/lib/orienteering-icon.bundled.js"
+    ></script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        text-align: center;
+      }
+      table {
+        margin: auto;
+        border-collapse: collapse;
+      }
+      img {
+        width: 80px;
+      }
+      tr {
+        height: 50px;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      tr:nth-of-type(2n) {
+        background-color: #ddd;
+      }
+      tr:nth-of-type(2n + 1) {
+        background-color: #eee;
+      }
+      tr:first-of-type {
+        background-color: white;
+      }
+      orienteering-icon {
+        --color: black;
+        --width: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Comparison of the web component for different icons to the source SVG
+      files from which they were generated.
+    </p>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Generated</th>
+        <th>Original</th>
+      </tr>
+      <tr>
+        <td>ant_hill_termite_mound</td>
+        <td>
+          <orienteering-icon name="ant_hill_termite_mound"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/ant_hill_termite_mound.svg"
+            alt="ant_hill_termite_mound.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>bare_rock</td>
+        <td>
+          <orienteering-icon name="bare_rock"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/bare_rock.svg" alt="bare_rock.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>bend</td>
+        <td>
+          <orienteering-icon name="bend"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/bend.svg" alt="bend.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>beneath</td>
+        <td>
+          <orienteering-icon name="beneath"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/beneath.svg" alt="beneath.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>between</td>
+        <td>
+          <orienteering-icon name="between"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/between.svg" alt="between.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>boulder</td>
+        <td>
+          <orienteering-icon name="boulder"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/boulder.svg" alt="boulder.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>boulder_cluster</td>
+        <td>
+          <orienteering-icon name="boulder_cluster"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/boulder_cluster.svg" alt="boulder_cluster.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>boulder_field</td>
+        <td>
+          <orienteering-icon name="boulder_field"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/boulder_field.svg" alt="boulder_field.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>boundary_stone_cairn</td>
+        <td>
+          <orienteering-icon name="boundary_stone_cairn"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/boundary_stone_cairn.svg"
+            alt="boundary_stone_cairn.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>bridge</td>
+        <td>
+          <orienteering-icon name="bridge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/bridge.svg" alt="bridge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>broad_leaved</td>
+        <td>
+          <orienteering-icon name="broad_leaved"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/broad_leaved.svg" alt="broad_leaved.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>broken_ground</td>
+        <td>
+          <orienteering-icon name="broken_ground"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/broken_ground.svg" alt="broken_ground.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>building</td>
+        <td>
+          <orienteering-icon name="building"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/building.svg" alt="building.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>building_pass_through</td>
+        <td>
+          <orienteering-icon name="building_pass_through"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/building_pass_through.svg"
+            alt="building_pass_through.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>cave</td>
+        <td>
+          <orienteering-icon name="cave"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/cave.svg" alt="cave.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>charcoal_burning_ground</td>
+        <td>
+          <orienteering-icon name="charcoal_burning_ground"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/charcoal_burning_ground.svg"
+            alt="charcoal_burning_ground.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>clearing</td>
+        <td>
+          <orienteering-icon name="clearing"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/clearing.svg" alt="clearing.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>cliff_rock_face</td>
+        <td>
+          <orienteering-icon name="cliff_rock_face"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/cliff_rock_face.svg" alt="cliff_rock_face.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>control_check</td>
+        <td>
+          <orienteering-icon name="control_check"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/control_check.svg" alt="control_check.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>control_point</td>
+        <td>
+          <orienteering-icon name="control_point"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/control_point.svg" alt="control_point.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>control_point_left_arrow</td>
+        <td>
+          <orienteering-icon
+            name="control_point_left_arrow"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/control_point_left_arrow.svg"
+            alt="control_point_left_arrow.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>control_point_right_arrow</td>
+        <td>
+          <orienteering-icon
+            name="control_point_right_arrow"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/control_point_right_arrow.svg"
+            alt="control_point_right_arrow.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>copse</td>
+        <td>
+          <orienteering-icon name="copse"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/copse.svg" alt="copse.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>crossing</td>
+        <td>
+          <orienteering-icon name="crossing"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/crossing.svg" alt="crossing.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>crossing_point</td>
+        <td>
+          <orienteering-icon name="crossing_point"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/crossing_point.svg" alt="crossing_point.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>deep</td>
+        <td>
+          <orienteering-icon name="deep"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/deep.svg" alt="deep.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>depression</td>
+        <td>
+          <orienteering-icon name="depression"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/depression.svg" alt="depression.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>distinctive_tree</td>
+        <td>
+          <orienteering-icon name="distinctive_tree"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/distinctive_tree.svg" alt="distinctive_tree.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>earth_bank</td>
+        <td>
+          <orienteering-icon name="earth_bank"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/earth_bank.svg" alt="earth_bank.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>earth_wall</td>
+        <td>
+          <orienteering-icon name="earth_wall"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/earth_wall.svg" alt="earth_wall.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_corner_inside</td>
+        <td>
+          <orienteering-icon name="east_corner_inside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/east_corner_inside.svg"
+            alt="east_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>east_corner_outside</td>
+        <td>
+          <orienteering-icon name="east_corner_outside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/east_corner_outside.svg"
+            alt="east_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>east_edge</td>
+        <td>
+          <orienteering-icon name="east_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_edge.svg" alt="east_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_end</td>
+        <td>
+          <orienteering-icon name="east_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_end.svg" alt="east_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_foot</td>
+        <td>
+          <orienteering-icon name="east_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_foot.svg" alt="east_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_part</td>
+        <td>
+          <orienteering-icon name="east_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_part.svg" alt="east_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_side</td>
+        <td>
+          <orienteering-icon name="east_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_side.svg" alt="east_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>east_tip</td>
+        <td>
+          <orienteering-icon name="east_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/east_tip.svg" alt="east_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>eastern</td>
+        <td>
+          <orienteering-icon name="eastern"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/eastern.svg" alt="eastern.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>erosion_gully</td>
+        <td>
+          <orienteering-icon name="erosion_gully"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/erosion_gully.svg" alt="erosion_gully.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>fence</td>
+        <td>
+          <orienteering-icon name="fence"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/fence.svg" alt="fence.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>finish</td>
+        <td>
+          <orienteering-icon name="finish"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/finish.svg" alt="finish.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>finish_left_arrow</td>
+        <td>
+          <orienteering-icon name="finish_left_arrow"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/finish_left_arrow.svg" alt="finish_left_arrow.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>finish_right_arrow</td>
+        <td>
+          <orienteering-icon name="finish_right_arrow"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/finish_right_arrow.svg"
+            alt="finish_right_arrow.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>firm_ground_in_marsh</td>
+        <td>
+          <orienteering-icon name="firm_ground_in_marsh"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/firm_ground_in_marsh.svg"
+            alt="firm_ground_in_marsh.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>first_aid_post</td>
+        <td>
+          <orienteering-icon name="first_aid_post"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/first_aid_post.svg" alt="first_aid_post.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>fodder_rack</td>
+        <td>
+          <orienteering-icon name="fodder_rack"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/fodder_rack.svg" alt="fodder_rack.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>foot_no_direction</td>
+        <td>
+          <orienteering-icon name="foot_no_direction"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/foot_no_direction.svg" alt="foot_no_direction.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>forest_corner</td>
+        <td>
+          <orienteering-icon name="forest_corner"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/forest_corner.svg" alt="forest_corner.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>hill</td>
+        <td>
+          <orienteering-icon name="hill"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/hill.svg" alt="hill.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>junction</td>
+        <td>
+          <orienteering-icon name="junction"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/junction.svg" alt="junction.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>knol</td>
+        <td>
+          <orienteering-icon name="knol"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/knol.svg" alt="knol.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>lake</td>
+        <td>
+          <orienteering-icon name="lake"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/lake.svg" alt="lake.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>linear_thicket</td>
+        <td>
+          <orienteering-icon name="linear_thicket"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/linear_thicket.svg" alt="linear_thicket.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>low</td>
+        <td>
+          <orienteering-icon name="low"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/low.svg" alt="low.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>lower</td>
+        <td>
+          <orienteering-icon name="lower"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/lower.svg" alt="lower.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>lower_part</td>
+        <td>
+          <orienteering-icon name="lower_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/lower_part.svg" alt="lower_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>marsh</td>
+        <td>
+          <orienteering-icon name="marsh"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/marsh.svg" alt="marsh.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>marshy</td>
+        <td>
+          <orienteering-icon name="marshy"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/marshy.svg" alt="marshy.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>middle</td>
+        <td>
+          <orienteering-icon name="middle"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/middle.svg" alt="middle.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>minor_water_channel_ditch</td>
+        <td>
+          <orienteering-icon
+            name="minor_water_channel_ditch"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/minor_water_channel_ditch.svg"
+            alt="minor_water_channel_ditch.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>monument_or_statue</td>
+        <td>
+          <orienteering-icon name="monument_or_statue"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/monument_or_statue.svg"
+            alt="monument_or_statue.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>narrow_marsh</td>
+        <td>
+          <orienteering-icon name="narrow_marsh"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/narrow_marsh.svg" alt="narrow_marsh.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>narrow_passage</td>
+        <td>
+          <orienteering-icon name="narrow_passage"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/narrow_passage.svg" alt="narrow_passage.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>needle_leaved</td>
+        <td>
+          <orienteering-icon name="needle_leaved"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/needle_leaved.svg" alt="needle_leaved.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_corner_inside</td>
+        <td>
+          <orienteering-icon name="north_corner_inside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_corner_inside.svg"
+            alt="north_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_corner_outside</td>
+        <td>
+          <orienteering-icon name="north_corner_outside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_corner_outside.svg"
+            alt="north_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_corner_inside</td>
+        <td>
+          <orienteering-icon
+            name="north_east_corner_inside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_east_corner_inside.svg"
+            alt="north_east_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_corner_outside</td>
+        <td>
+          <orienteering-icon
+            name="north_east_corner_outside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_east_corner_outside.svg"
+            alt="north_east_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_edge</td>
+        <td>
+          <orienteering-icon name="north_east_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_edge.svg" alt="north_east_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_end</td>
+        <td>
+          <orienteering-icon name="north_east_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_end.svg" alt="north_east_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_foot</td>
+        <td>
+          <orienteering-icon name="north_east_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_foot.svg" alt="north_east_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_part</td>
+        <td>
+          <orienteering-icon name="north_east_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_part.svg" alt="north_east_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_side</td>
+        <td>
+          <orienteering-icon name="north_east_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_side.svg" alt="north_east_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_east_tip</td>
+        <td>
+          <orienteering-icon name="north_east_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_east_tip.svg" alt="north_east_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_eastern</td>
+        <td>
+          <orienteering-icon name="north_eastern"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_eastern.svg" alt="north_eastern.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_edge</td>
+        <td>
+          <orienteering-icon name="north_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_edge.svg" alt="north_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_end</td>
+        <td>
+          <orienteering-icon name="north_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_end.svg" alt="north_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_foot</td>
+        <td>
+          <orienteering-icon name="north_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_foot.svg" alt="north_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_part</td>
+        <td>
+          <orienteering-icon name="north_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_part.svg" alt="north_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_side</td>
+        <td>
+          <orienteering-icon name="north_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_side.svg" alt="north_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_tip</td>
+        <td>
+          <orienteering-icon name="north_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_tip.svg" alt="north_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_corner_inside</td>
+        <td>
+          <orienteering-icon
+            name="north_west_corner_inside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_west_corner_inside.svg"
+            alt="north_west_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_corner_outside</td>
+        <td>
+          <orienteering-icon
+            name="north_west_corner_outside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/north_west_corner_outside.svg"
+            alt="north_west_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_edge</td>
+        <td>
+          <orienteering-icon name="north_west_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_edge.svg" alt="north_west_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_end</td>
+        <td>
+          <orienteering-icon name="north_west_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_end.svg" alt="north_west_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_foot</td>
+        <td>
+          <orienteering-icon name="north_west_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_foot.svg" alt="north_west_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_part</td>
+        <td>
+          <orienteering-icon name="north_west_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_part.svg" alt="north_west_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_side</td>
+        <td>
+          <orienteering-icon name="north_west_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_side.svg" alt="north_west_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_west_tip</td>
+        <td>
+          <orienteering-icon name="north_west_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_west_tip.svg" alt="north_west_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>north_western</td>
+        <td>
+          <orienteering-icon name="north_western"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/north_western.svg" alt="north_western.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>northern</td>
+        <td>
+          <orienteering-icon name="northern"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/northern.svg" alt="northern.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>open</td>
+        <td>
+          <orienteering-icon name="open"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/open.svg" alt="open.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>open_land</td>
+        <td>
+          <orienteering-icon name="open_land"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/open_land.svg" alt="open_land.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>overgrown</td>
+        <td>
+          <orienteering-icon name="overgrown"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/overgrown.svg" alt="overgrown.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>paved_area</td>
+        <td>
+          <orienteering-icon name="paved_area"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/paved_area.svg" alt="paved_area.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>pipeline</td>
+        <td>
+          <orienteering-icon name="pipeline"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/pipeline.svg" alt="pipeline.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>pit</td>
+        <td>
+          <orienteering-icon name="pit"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/pit.svg" alt="pit.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>pond</td>
+        <td>
+          <orienteering-icon name="pond"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/pond.svg" alt="pond.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>power_line</td>
+        <td>
+          <orienteering-icon name="power_line"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/power_line.svg" alt="power_line.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>power_line_pylon</td>
+        <td>
+          <orienteering-icon name="power_line_pylon"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/power_line_pylon.svg" alt="power_line_pylon.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>quarry</td>
+        <td>
+          <orienteering-icon name="quarry"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/quarry.svg" alt="quarry.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>radio_or_tv_control</td>
+        <td>
+          <orienteering-icon name="radio_or_tv_control"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/radio_or_tv_control.svg"
+            alt="radio_or_tv_control.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>re-entrant</td>
+        <td>
+          <orienteering-icon name="re-entrant"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/re-entrant.svg" alt="re-entrantsvg" />
+        </td>
+      </tr>
+      "
+      <tr>
+        <td>refreshment_point</td>
+        <td>
+          <orienteering-icon name="refreshment_point"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/refreshment_point.svg" alt="refreshment_point.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>ride</td>
+        <td>
+          <orienteering-icon name="ride"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/ride.svg" alt="ride.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>river_stream_watercourse</td>
+        <td>
+          <orienteering-icon
+            name="river_stream_watercourse"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/river_stream_watercourse.svg"
+            alt="river_stream_watercourse.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>road</td>
+        <td>
+          <orienteering-icon name="road"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/road.svg" alt="road.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>rock_pillar</td>
+        <td>
+          <orienteering-icon name="rock_pillar"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/rock_pillar.svg" alt="rock_pillar.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>rocky_stony</td>
+        <td>
+          <orienteering-icon name="rocky_stony"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/rocky_stony.svg" alt="rocky_stony.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>ruin</td>
+        <td>
+          <orienteering-icon name="ruin"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/ruin.svg" alt="ruin.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>ruined</td>
+        <td>
+          <orienteering-icon name="ruined"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/ruined.svg" alt="ruined.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>saddle</td>
+        <td>
+          <orienteering-icon name="saddle"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/saddle.svg" alt="saddle.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>sandy</td>
+        <td>
+          <orienteering-icon name="sandy"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/sandy.svg" alt="sandy.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>semi-open_land</td>
+        <td>
+          <orienteering-icon name="semi-open_land"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/semi-open_land.svg" alt="semi-open_landsvg" />
+        </td>
+      </tr>
+      "
+      <tr>
+        <td>shallow</td>
+        <td>
+          <orienteering-icon name="shallow"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/shallow.svg" alt="shallow.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>shooting_platform</td>
+        <td>
+          <orienteering-icon name="shooting_platform"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/shooting_platform.svg" alt="shooting_platform.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>slash_for_height_on_slope</td>
+        <td>
+          <orienteering-icon
+            name="slash_for_height_on_slope"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/slash_for_height_on_slope.svg"
+            alt="slash_for_height_on_slope.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>small_depression</td>
+        <td>
+          <orienteering-icon name="small_depression"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/small_depression.svg" alt="small_depression.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>small_erosion_gully</td>
+        <td>
+          <orienteering-icon name="small_erosion_gully"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/small_erosion_gully.svg"
+            alt="small_erosion_gully.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_corner_inside</td>
+        <td>
+          <orienteering-icon name="south_corner_inside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_corner_inside.svg"
+            alt="south_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_corner_outside</td>
+        <td>
+          <orienteering-icon name="south_corner_outside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_corner_outside.svg"
+            alt="south_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_corner_inside</td>
+        <td>
+          <orienteering-icon
+            name="south_east_corner_inside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_east_corner_inside.svg"
+            alt="south_east_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_corner_outside</td>
+        <td>
+          <orienteering-icon
+            name="south_east_corner_outside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_east_corner_outside.svg"
+            alt="south_east_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_edge</td>
+        <td>
+          <orienteering-icon name="south_east_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_edge.svg" alt="south_east_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_end</td>
+        <td>
+          <orienteering-icon name="south_east_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_end.svg" alt="south_east_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_foot</td>
+        <td>
+          <orienteering-icon name="south_east_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_foot.svg" alt="south_east_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_part</td>
+        <td>
+          <orienteering-icon name="south_east_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_part.svg" alt="south_east_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_side</td>
+        <td>
+          <orienteering-icon name="south_east_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_side.svg" alt="south_east_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_east_tip</td>
+        <td>
+          <orienteering-icon name="south_east_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_east_tip.svg" alt="south_east_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_eastern</td>
+        <td>
+          <orienteering-icon name="south_eastern"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_eastern.svg" alt="south_eastern.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_edge</td>
+        <td>
+          <orienteering-icon name="south_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_edge.svg" alt="south_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_end</td>
+        <td>
+          <orienteering-icon name="south_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_end.svg" alt="south_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_foot</td>
+        <td>
+          <orienteering-icon name="south_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_foot.svg" alt="south_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_part</td>
+        <td>
+          <orienteering-icon name="south_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_part.svg" alt="south_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_side</td>
+        <td>
+          <orienteering-icon name="south_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_side.svg" alt="south_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_tip</td>
+        <td>
+          <orienteering-icon name="south_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_tip.svg" alt="south_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_corner_inside</td>
+        <td>
+          <orienteering-icon
+            name="south_west_corner_inside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_west_corner_inside.svg"
+            alt="south_west_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_corner_outside</td>
+        <td>
+          <orienteering-icon
+            name="south_west_corner_outside"
+          ></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/south_west_corner_outside.svg"
+            alt="south_west_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_edge</td>
+        <td>
+          <orienteering-icon name="south_west_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_edge.svg" alt="south_west_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_end</td>
+        <td>
+          <orienteering-icon name="south_west_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_end.svg" alt="south_west_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_foot</td>
+        <td>
+          <orienteering-icon name="south_west_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_foot.svg" alt="south_west_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_part</td>
+        <td>
+          <orienteering-icon name="south_west_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_part.svg" alt="south_west_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_side</td>
+        <td>
+          <orienteering-icon name="south_west_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_side.svg" alt="south_west_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_west_tip</td>
+        <td>
+          <orienteering-icon name="south_west_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_west_tip.svg" alt="south_west_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>south_western</td>
+        <td>
+          <orienteering-icon name="south_western"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/south_western.svg" alt="south_western.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>southern</td>
+        <td>
+          <orienteering-icon name="southern"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/southern.svg" alt="southern.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>special_item_o</td>
+        <td>
+          <orienteering-icon name="special_item_o"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/special_item_o.svg" alt="special_item_o.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>special_item_x</td>
+        <td>
+          <orienteering-icon name="special_item_x"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/special_item_x.svg" alt="special_item_x.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>spring</td>
+        <td>
+          <orienteering-icon name="spring"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/spring.svg" alt="spring.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>spur</td>
+        <td>
+          <orienteering-icon name="spur"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/spur.svg" alt="spur.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>stairway</td>
+        <td>
+          <orienteering-icon name="stairway"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/stairway.svg" alt="stairway.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>start</td>
+        <td>
+          <orienteering-icon name="start"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/start.svg" alt="start.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>start_location</td>
+        <td>
+          <orienteering-icon name="start_location"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/start_location.svg" alt="start_location.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>stone_wall</td>
+        <td>
+          <orienteering-icon name="stone_wall"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/stone_wall.svg" alt="stone_wall.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>stony_ground</td>
+        <td>
+          <orienteering-icon name="stony_ground"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/stony_ground.svg" alt="stony_ground.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>terrace</td>
+        <td>
+          <orienteering-icon name="terrace"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/terrace.svg" alt="terrace.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>thicket</td>
+        <td>
+          <orienteering-icon name="thicket"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/thicket.svg" alt="thicket.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>top</td>
+        <td>
+          <orienteering-icon name="top"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/top.svg" alt="top.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>tower</td>
+        <td>
+          <orienteering-icon name="tower"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/tower.svg" alt="tower.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>track_path</td>
+        <td>
+          <orienteering-icon name="track_path"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/track_path.svg" alt="track_path.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>tree_stump_root_stock</td>
+        <td>
+          <orienteering-icon name="tree_stump_root_stock"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/tree_stump_root_stock.svg"
+            alt="tree_stump_root_stock.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>tunnel</td>
+        <td>
+          <orienteering-icon name="tunnel"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/tunnel.svg" alt="tunnel.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>upper</td>
+        <td>
+          <orienteering-icon name="upper"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/upper.svg" alt="upper.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>upper_part</td>
+        <td>
+          <orienteering-icon name="upper_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/upper_part.svg" alt="upper_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>vegetation_boundary</td>
+        <td>
+          <orienteering-icon name="vegetation_boundary"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/vegetation_boundary.svg"
+            alt="vegetation_boundary.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>water_tank_water_trough</td>
+        <td>
+          <orienteering-icon name="water_tank_water_trough"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/water_tank_water_trough.svg"
+            alt="water_tank_water_trough.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>waterhole</td>
+        <td>
+          <orienteering-icon name="waterhole"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/waterhole.svg" alt="waterhole.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>well</td>
+        <td>
+          <orienteering-icon name="well"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/well.svg" alt="well.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_corner_inside</td>
+        <td>
+          <orienteering-icon name="west_corner_inside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/west_corner_inside.svg"
+            alt="west_corner_inside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>west_corner_outside</td>
+        <td>
+          <orienteering-icon name="west_corner_outside"></orienteering-icon>
+        </td>
+        <td>
+          <img
+            src="icons/west_corner_outside.svg"
+            alt="west_corner_outside.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>west_edge</td>
+        <td>
+          <orienteering-icon name="west_edge"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_edge.svg" alt="west_edge.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_end</td>
+        <td>
+          <orienteering-icon name="west_end"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_end.svg" alt="west_end.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_foot</td>
+        <td>
+          <orienteering-icon name="west_foot"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_foot.svg" alt="west_foot.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_part</td>
+        <td>
+          <orienteering-icon name="west_part"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_part.svg" alt="west_part.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_side</td>
+        <td>
+          <orienteering-icon name="west_side"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_side.svg" alt="west_side.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>west_tip</td>
+        <td>
+          <orienteering-icon name="west_tip"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/west_tip.svg" alt="west_tip.svg" />
+        </td>
+      </tr>
+      <tr>
+        <td>western</td>
+        <td>
+          <orienteering-icon name="western"></orienteering-icon>
+        </td>
+        <td>
+          <img src="icons/western.svg" alt="western.svg" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
