@@ -1,6 +1,8 @@
 # Orienteering Icons
 
-Web component to create icons relevant for orienteering in an SVG format. Check out [this demo](https://city-ol.github.io/orienteering-icons/demo.html) and its [source code](demo.html) for the supported icon names.
+[![npm (scoped)](https://img.shields.io/npm/v/@city-ol/orienteering-icons)](https://img.shields.io/npm/v/@city-ol/orienteering-icons) [![pages-build-deployment](https://github.com/City-OL/orienteering-icons/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/City-OL/orienteering-icons/actions/workflows/pages/pages-build-deployment)
+
+Web component to create icons relevant for orienteering in an SVG format. Check out [this demo](https://city-ol.github.io/orienteering-icons/demo.html) and its [source code](demo.html) for the supported icon and their respective names.
 
 ## Usage
 
@@ -21,6 +23,15 @@ To create an icon, add an `<orienteering-icon>` element and specify its name.
 
 ```html
 <orienteering-icon name="broad_leaved"></orienteering-icon>
+```
+
+The icon color and width can be changed by setting `--color` and `--width` CSS variables (defaults to `black` and `100%`).
+
+```css
+orienteering-icon {
+  --color: black;
+  --width: 80px;
+}
 ```
 
 ## Build
